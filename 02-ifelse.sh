@@ -9,5 +9,5 @@ elif [ "$ACTION" = "stop" ] ; then
 elif [ "$ACTION" = "restart" ] ; then
    echo -e "Restarting the dispatch service" 
 else
-   echo -e "Stopping the dispatch service"
+   echo -e "Try to run as: start, stop, restart"
 fi
