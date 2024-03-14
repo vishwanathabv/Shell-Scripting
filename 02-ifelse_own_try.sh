@@ -3,7 +3,7 @@
 NAME=$1
 
 if [ "$NAME" = "Vishwa" ] ; then
-   echo -e "\e[32m Working in T-Systems \e[0m"
+   echo -e $NAME, "\e[32m Working in T-Systems \e[0m"
 elif [ "$NAME" = "Danu" ] ; then
    echo -e "\e[33m Working in Accenture \e[0m"
 elif [ "$NAME" = "Atharv" ] ; then
