@@ -2,6 +2,6 @@
 
 
 
-if [ "$ACTION" = "start" ] ; then
-   echo "Starting dispatch service"
+if ["$ACTION" = "start"] ; then
+   echo -e "Starting dispatch service"
 fi
