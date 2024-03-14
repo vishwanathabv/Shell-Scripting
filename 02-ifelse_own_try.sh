@@ -10,5 +10,4 @@ elif [ "$NAME" = "Atharv" ] ; then
    echo -e $NAME, "\e[34m Schooling in BALDWIN \e[0m"
 else 
    echo -e "\e[35m Try typing for correct name \e[0m"
-
 fi
