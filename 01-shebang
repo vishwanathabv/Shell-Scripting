@@ -1,5 +1,4 @@
-echo hello world
-echo "welcome to scripting world"
+
 
 
 ACTION=$1
