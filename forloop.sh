@@ -13,5 +13,5 @@
 
 #arr=("mango" "grape" "apple" "cherry" "orange")
 for item in mango grape apple cherry orange ; do
-     echo -e "fruit names are $item"
+     echo -e "fruit names is $item"
 done
