@@ -11,7 +11,12 @@
 #    echo -e "values are $x"
 # done
 
-#arr=("mango" "grape" "apple" "cherry" "orange")
-for item in mango grape apple cherry orange ; do
-     echo -e "fruit names is $item"
+# #arr=("mango" "grape" "apple" "cherry" "orange")
+# for item in mango grape apple cherry orange ; do
+#      echo -e "fruit names is $item"
+# done
+
+arr=("mango" "grape" "apple" "cherry" "orange")
+for item in "${arr[@]}"; do
+echo $item
 done
