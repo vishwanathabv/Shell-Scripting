@@ -7,6 +7,11 @@
 
 #Example of for loop:
 
-for x in 10 20 30 40 50 ; do
-   echo -e "values are $x"
+# for x in 10 20 30 40 50 ; do
+#    echo -e "values are $x"
+# done
+
+#arr=("mango" "grape" "apple" "cherry" "orange")
+for item in ("mango" "grape" "apple" "cherry" "orange"); do
+echo $item
 done
