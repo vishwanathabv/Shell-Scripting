@@ -12,6 +12,6 @@
 # done
 
 #arr=("mango" "grape" "apple" "cherry" "orange")
-for item in ("mango" "grape" "apple" "cherry" "orange"); do
+for item in mango grape apple cherry orange ; do
 echo $item
 done
